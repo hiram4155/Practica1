@@ -1,0 +1,217 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background-color: #f0f0f0;
+	margin:0;
+	margin-top: 100px;
+}
+
+div.container{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+nav{
+	background-color: #f0f0f0;
+	display: table;
+	height: auto;
+	padding: 20px;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+nav div#left{
+	display: block;
+	float: left;
+	width: 30%;
+}
+nav div#right{
+	display: block;
+	float: left;
+	width: 70%;
+}
+nav div#right ul{
+	
+	display: table;
+	float: right;
+	padding:0;
+	width: 70%;
+}
+nav div ul li {
+
+	display: table-cell;
+	color: #b2b2b2;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: auto;
+	list-style: none;
+	text-align: center;
+	width: 20%;
+}
+nav div ul li:hover {
+	color: #1abb9c;
+}
+div#titulo{
+	background-color: #1abb9c;
+	display: block;
+	float: left;
+	height: auto;
+	width: 100%;
+}
+
+div#titulo h3{
+	color: white;
+	margin-left: 50px;
+}
+
+section{
+
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px;
+	width: 90%;
+}
+
+section div{
+	display: table;
+	height: auto;
+	padding: 30px;
+	width: 100%;
+}
+
+section div p{
+	background-color: #fcf8e3;
+	border-radius: 1px;
+	display: block;
+	margin:0 auto;
+	padding: 40px;
+}
+
+section div input{
+	background-color: #e4e4e4;
+	border: 1px solid #e4e4e4;
+	border-radius: 20px;
+	 outline: none;
+	display: block;
+	height: auto;
+	margin:0 auto;
+	padding: 10px;
+	width: 90%;
+}
+
+section div input:hover{
+	border-radius: 20px;
+		border: 1px solid yellow;
+}
+section{
+	display: table;
+	height: auto;
+	width: 100%;
+}
+section#imagenes{
+
+	display: table;
+	height: auto;
+	width: 100%;
+	padding-left:40px;
+}
+section#imagenes article{
+
+	display: table-cell;
+	height: auto;
+	padding: 0;
+	width: 33.33%;
+}
+section#imagenes article div{
+	padding: 10px;
+	width: 100%;
+}
+section#imagenes article div#date{
+	background-color: #f7f7f7;
+}
+section#imagenes article div#about{
+	background-color: #ffffff;
+}
+section#imagenes article img{
+
+	display: block;
+	margin:0 auto;
+	height: auto;
+	width: 100%;
+}
+
+/*-----------------------------AREA DEL FOOTER-------------------------------------*/
+footer{
+	height: auto;
+	background-color: #5e5e5e;
+	width: 100%;
+}
+footer div{
+	display: table;
+	height: auto;
+	padding: 10px;
+	width: 100%;
+
+}
+footer div article{
+	display: table;
+	margin:0 auto;
+	width: 20%;
+}
+footer div p{
+	color: white;
+	text-align: center;
+}
+footer div article div{
+	display: table;
+	margin:0 auto;
+	width: 80%;
+}
+footer div article div img{
+	display: block;
+	float: left;
+	padding: 5px;
+	width: 20%;
+}
+footer div ul{
+	display: block;
+	margin:0 auto;
+	height: auto;
+	padding: 20px;
+	width: 50%;
+}
+footer div ul li{
+	
+	display: block;
+	float: left;
+	height: auto;
+	width: 49%;
+}
+footer div ul li p{
+	background-color: #b2b2b2;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	display: block;
+	margin:0 auto;
+	width: 80%;
+	text-align: center;
+}
+@media screen and (max-width: 760px){
+
+section article{
+	width: 100%;
+	display: block;
+	float: left;
+
+}
+
+
+}
